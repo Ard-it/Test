@@ -8,7 +8,7 @@ const Nav = () => {
             </a>
 
             {/* Mobile Nav */}
-            <div className="menu-icon">
+            <div className='menu-icon'>
                 <div className='bar'></div>
                 <div className='bar'></div>
                 <div className='bar'></div>
