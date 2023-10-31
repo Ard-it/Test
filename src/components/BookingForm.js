@@ -7,7 +7,7 @@ const BookingForm = (props) => {
     const [occasion, setOccasion] = useState("")
     const handleSubmit = (e) => {
         e.preventDefault();
-        props.SubmitForm(e);
+        props.submitForm(e);
 
     }
     const handleChange = (e) => {
@@ -52,8 +52,8 @@ const BookingForm = (props) => {
                         </div>
 
                         {/* submit button */}
-                        <div className="btnReceive">
-                            <input aria-label='On Click' type="submit" value={"Make Your Reservation"} />
+                        <div className='btnReceive'>
+                            <input aria-label='On Click' type="submit" value={"Make Your Reservation"}/>
                         </div>
                     </fieldset>
                 </form>
